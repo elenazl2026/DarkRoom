@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/spl.jar!/" />
+    </SOURCES>
+  </library>
+</component>
