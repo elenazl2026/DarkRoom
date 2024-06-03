@@ -72,7 +72,12 @@ public class DarkRoom extends GraphicsProgram {
 		addButtons();
 		addActionListeners();
 		setTitle("DarkRoom");
-		algorithms = new DarkRoomAlgorithms();
+		algorithms = new DarkRoomAlgorithms() {
+			@Override
+			public GImage equalize(GImage source) {
+				return null;
+			}
+		};
 	}
 	
 	// Add the interactors to the screen
